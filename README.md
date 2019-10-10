@@ -23,5 +23,5 @@ In this project i used arduino nano as the microcontroller for transimtter that 
 I also used arduino nano connected with IC TCM3105 board for the receiver. The difference is, for the receiver i used pre-amp mic to receive the analog modulated signal that had been sent. This pre-amp mic is connected to the TxA and RxA. The TxD and RxD of the IC TCM3105 Module is connected to the Tx and Rx pin of arduino nano. Then for the final step i just need to connect LCD with arduino nano. If everything went well, the data read from barometer at the transmitter would be also available in the LCD of the receiver. 
 
 <p align="center">
-  <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/reveiver_fsk.jpg">
+  <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/receiver_fsk.jpg">
 </p>
