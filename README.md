@@ -25,3 +25,9 @@ I also used arduino nano connected with IC TCM3105 board for the receiver. The d
 <p align="center">
   <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/receiver_fsk.jpg">
 </p>
+
+You can see full diagram block of my project below. The serial communication is done through modulated analog frequency. I have a plan implementing this project in order to make my own telemetry device. Actually the active speaker and pre-amp mic can be replaced with long range radio device. This will greatly amplify the range of the serial communication. I am very open and if you have any question feel free to ask. Thanks.
+
+<p align="center">
+  <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/tx_rx_full.jpg">
+</p>
