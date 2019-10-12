@@ -24,13 +24,13 @@ In this project i used arduino nano as the microcontroller for transimtter that 
 </p>
 
 #### 2. Receiver
-I also used arduino nano connected with IC TCM3105 board for the receiver. The difference is, for the receiver i used pre-amp mic to receive the analog modulated signal that had been sent. This pre-amp mic is connected to the TxA and RxA. The TxD and RxD of the IC TCM3105 Module is connected to the Tx and Rx pin of arduino nano. Then for the final step i just need to connect LCD with arduino nano. If everything went well, the data read from barometer at the transmitter would be also available in the LCD of the receiver. 
+I also used arduino nano connected with IC TCM3105 board for the receiver. The difference is, for the receiver i used pre-amp mic to receive the analog modulated signal that had been sent. This pre-amp mic is connected to the 3.5 audio jack which also connected to TxA and RxA. The TxD and RxD of the IC TCM3105 Module is connected to the Tx and Rx pin of arduino nano. Then for the final step i just need to connect LCD with arduino nano. If everything went well, the data read from barometer at the transmitter would be also available in the LCD of the receiver. 
 
 <p align="center">
   <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/receiver_fsk.jpg">
 </p>
 
-You can see full diagram block of my project below. The serial communication is done through modulated analog frequency. I have a plan implementing this project in order to make my own telemetry device. Actually the active speaker and pre-amp mic can be replaced with long range radio device. This will greatly amplify the range of the serial communication. I am very open and if you have any question feel free to ask. Thanks.
+You can see full diagram block of my project below. The serial communication is done through modulated analog frequency. The board i designed has 3.5 audio jack. If you want the board to act as transmitter just connect active speaker. If you want the board act as receiver just connect pre-amp mic. I only tested one-way communication in this project. I have a plan implementing this project in order to make my own telemetry device. Actually the active speaker and pre-amp mic can be replaced with long range radio device. This will greatly amplify the range of the serial communication. I am very open and if you have any question feel free to ask. Thanks.
 
 <p align="center">
   <img  src="https://github.com/falithurrahman/fsk_serial_communication/blob/master/tx_rx_full.jpg">
