@@ -9,7 +9,7 @@ In this project, i performed serial communication using FSK (Frequency Shift Key
 
 > Source : https://en.wikipedia.org/wiki/Frequency-shift_keying
 
-The board i made was designed using Autodesk EAGLE using one layer printed circuit board. I will call this is *IC TCM3105 Board Module*. The schematic for the board and the board i designed can bee seen at the picture below. I will also attached the .sch and .brd file that i made at PCB folder. 
+The board i made was designed using Autodesk EAGLE using one layer printed circuit board. I will call this is *IC TCM3105 Board Module*. The schematic for the board and the board i designed can bee seen at the picture below. I will also attached the .sch and .brd file that i made at PCB folder. Beside the schematic i provide, you can also refer [here](http://www.ne.jp/asahi/hamradio/je9pel/srll_tcm.htm). 
 
 To perform serial communication we need 2 devices, each acts as transmitter and receiver. I will explain each of this device separatedly.
 #### 1. Transmitter
